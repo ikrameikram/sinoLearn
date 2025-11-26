@@ -1,92 +1,93 @@
 # 🇨🇳 SinoLearn — Plateforme Interactive d’Apprentissage du Chinois Mandarin
-Ce projet est une application **full-stack** composée d’un **backend Laravel** et d’un **frontend React**, permettant de gérer des cours , générer des tickets pdf et voir les statistiques par les administrateurs.
+
+SinoLearn est une application **full-stack** composée d’un **backend Laravel** et d’un **frontend React**, permettant aux apprenants d’étudier le chinois mandarin de manière interactive.
+Les administrateurs et professeurs disposent d’outils avancés pour gérer les cours, les utilisateurs, les statistiques, les paiements et l’export PDF.
 
 ---
 
 ## 🚀 Fonctionnalités
 
-### 🔹 Utilisateur
--Inscription / Connexion
--Tableau de bord personnalisé (progression, badges, niveau HSK)
--Parcours d’apprentissage structuré (HSK 1 → 6)
--Leçons multimédias (texte, audio, vidéo)
--Quiz interactifs & correction automatique
--Mock tests HSK chronométrés
--Espace communautaire (forum + chat en temps réel)
--Système de badges et gamification
--Paiement en ligne pour abonnement premium
--Gestion du profil et des préférences
+### 👤 Utilisateur
 
-### 🔹 Professeur
-- Création / modification / suppression de cours
-- Gestion des quiz et exercices
-- Suivi de la progression des apprenants
-- Messagerie directe avec les étudiants
-- Ajout de documents, vidéos, audios pédagogiques
+* Inscription / Connexion
+* Tableau de bord personnalisé (niveau, progression, badges)
+* Parcours d’apprentissage HSK (1 → 6)
+* Leçons multimédias (texte, audio, vidéo)
+* Quiz interactifs & correction automatique
+* Mock tests HSK chronométrés
+* Forum + Chat en temps réel
+* Gamification : badges, niveaux
+* Paiement en ligne (premium)
+* Gestion du profil et des préférences
 
-### 🔹 Administrateur
+### 👨‍🏫 Professeur
 
-- Tableau de bord global
-- Gestion des utilisateurs, professeurs et rôles
-- Gestion des paiements & abonnements
-- Modération du forum et du chat
-- Suivi des statistiques d’activité
-- Export PDF (rapports, logs, utilisateurs)
-- Gestion de tous les contenus (cours, tests, médias)
+* Création / modification / suppression de cours
+* Gestion des quiz et exercices
+* Suivi de la progression des étudiants
+* Messagerie directe
+* Ajout de vidéos, documents, audios pédagogiques
+
+### 🛡️ Administrateur
+
+* Tableau de bord global
+* Gestion des utilisateurs, professeurs et rôles
+* Gestion des paiements & abonnements
+* Modération (forum, chat)
+* Suivi des statistiques d’activité
+* Export PDF (logs, rapports, utilisateurs)
+* Gestion complète des contenus (cours, tests, médias)
 
 ---
 
 ## 🛠️ Technologies Utilisées
 
-### Backend (Laravel)
-- Laravel  
-- Laravel Sanctum  
-- MySQL   
-- ORM : Eloquent 
+### Backend — Laravel
 
-### Frontend (React)
-- Framework : React.js.
-- Langage : JavaScript 
-- Gestion du style : Tailwind CSS .
-- Routing : React Router DOM.
-- Gestion d’état : Redux Toolkit..
-- Appels API : Axios..
-- Build : Vite..
+* Laravel
+* Laravel Sanctum
+* MySQL
+* Eloquent ORM
+
+### Frontend — React
+
+* React.js
+* JavaScript
+* Tailwind CSS
+* React Router DOM
+* Redux Toolkit
+* Axios
+* Vite
 
 ---
 
 ## 📐 Conception
 
-- Diagramme de classes  
-- Diagramme de cas d'utilisation  
-- Maquettes des pages principales  
-
-### 🔗 Liens utiles
-
-- <a href="https://sino-learn.atlassian.net/jira/software/projects/SCRUM/boards/1" target="_blank" style="text-decoration:none;">
-  <kbd>📋 Voir le Planning Jira</kbd>
-</a>
-
-- <a href="https://docs.google.com/document/d/1bQBuLDfPF-J7Z6UsUWCVJAV19gR1uSJnQH5BpG63RIE/edit?tab=t.0" style="text-decoration:none;">
-  <kbd>📋 Voir le cahier de charge </kbd>
-</a>
-
-- <a href="   " target="_blank" style="text-decoration:none;">
-  <kbd>📐 Diagramme de Classes UML</kbd>
-</a>
-
-- <a href="     " target="_blank" style="text-decoration:none;">
-  <kbd>📄 Diagramme de Cas d'Utilisation UML</kbd>
-</a>
-
-- <a href="   " target="_blank" style="text-decoration:none;">
-  <kbd>🎨 Maquettage Figma</kbd>
-</a>
-
-
+* Diagramme de classes
+* Diagramme de cas d’utilisation
+* Maquettes Figma
 
 ---
 
-## 👥 Projet réalisé par:  
-Ikrame ELBAGHLI
+## 🔗 Liens utiles
 
+* 🗂️ **Planning Jira**
+  [https://sino-learn.atlassian.net/jira/software/projects/SCRUM/boards/1](https://sino-learn.atlassian.net/jira/software/projects/SCRUM/boards/1)
+
+* 📄 **Cahier des charges**
+  [https://docs.google.com/document/d/1bQBuLDfPF-J7Z6UsUWCVJAV19gR1uSJnQH5BpG63RIE](https://docs.google.com/document/d/1bQBuLDfPF-J7Z6UsUWCVJAV19gR1uSJnQH5BpG63RIE)
+
+* 📘 **Diagramme de Classes UML**
+  *(lien à ajouter)*
+
+* 📙 **Diagramme de Cas d’Utilisation UML**
+  *(lien à ajouter)*
+
+* 🎨 **Maquettes Figma**
+  *(lien à ajouter)*
+
+---
+
+## 👥 Projet réalisé par
+
+**Ikrame ELBAGHLI**
