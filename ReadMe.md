@@ -75,7 +75,7 @@ Les administrateurs et professeurs disposent d’outils avancés pour gérer les
   <kbd>📋 Voir le Planning Jira</kbd>
 </a>
 
-- <a href="https://docs.google.com/document/d/1bQBuLDfPF-J7Z6UsUWCVJAV19gR1uSJnQH5BpG63RIE/edit?tab=t.0"_blank" style="text-decoration:none;" target="_blank" style="text-decoration:none;">
+- <a href="https://docs.google.com/document/d/1bQBuLDfPF-J7Z6UsUWCVJAV19gR1uSJnQH5BpG63RIE/edit?tab=t.0" target="_blank" style="text-decoration:none;">
   <kbd>📋 Voir le Cahier de charge </kbd>
 </a>
 
