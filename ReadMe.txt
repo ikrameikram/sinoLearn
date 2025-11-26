@@ -71,20 +71,25 @@ Les administrateurs et professeurs disposent d’outils avancés pour gérer les
 
 ## 🔗 Liens utiles
 
-* 🗂️ **Planning Jira**
-  [https://sino-learn.atlassian.net/jira/software/projects/SCRUM/boards/1](https://sino-learn.atlassian.net/jira/software/projects/SCRUM/boards/1)
+- <a href="https://sino-learn.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?epics=visible&jql=parent%20%3D%20SCRUM-45&selectedIssue=SCRUM-43"_blank" style="text-decoration:none;">
+  <kbd>📋 Voir le Planning Jira</kbd>
+</a>
 
-* 📄 **Cahier des charges**
-  [https://docs.google.com/document/d/1bQBuLDfPF-J7Z6UsUWCVJAV19gR1uSJnQH5BpG63RIE](https://docs.google.com/document/d/1bQBuLDfPF-J7Z6UsUWCVJAV19gR1uSJnQH5BpG63RIE)
+- <a href="https://docs.google.com/document/d/1bQBuLDfPF-J7Z6UsUWCVJAV19gR1uSJnQH5BpG63RIE/edit?tab=t.0"_blank" style="text-decoration:none;">
+  <kbd>📋 Voir le Cahier de charge </kbd>
+</a>
 
-* 📘 **Diagramme de Classes UML**
-  *(lien à ajouter)*
+- <a href="https://lucid.app/lucidchart/cf800cf7-8203-402e-b510-dd2424db495b/edit?viewport_loc=-375%2C-446%2C2663%2C1249%2C0_0&invitationId=inv_123ce146-92e5-4800-a0eb-199212544f7c" target="_blank" style="text-decoration:none;">
+  <kbd>📐 Diagramme de Classes UML</kbd>
+</a>
 
-* 📙 **Diagramme de Cas d’Utilisation UML**
-  *(lien à ajouter)*
+- <a href="https://lucid.app/lucidchart/cf800cf7-8203-402e-b510-dd2424db495b/edit?viewport_loc=-587%2C-182%2C1828%2C857%2CvuV_~nrtQSs_&invitationId=inv_123ce146-92e5-4800-a0eb-199212544f7c" target="_blank" style="text-decoration:none;">
+  <kbd>📄 Diagramme de Cas d'Utilisation UML</kbd>
+</a>
 
-* 🎨 **Maquettes Figma**
-  *(lien à ajouter)*
+- <a href="https://www.figma.com/design/AutcLkCvlY2cVqxRCaDxOr/MyTiq?node-id=0-1&t=jFHf1QloX3EsyCT8-1" target="_blank" style="text-decoration:none;">
+  <kbd>🎨 Maquettage Figma</kbd>
+</a>
 
 ---
 
