@@ -79,15 +79,15 @@ Les administrateurs et professeurs disposent d’outils avancés pour gérer les
   <kbd>📋 Voir le Cahier de charge </kbd>
 </a>
 
-- <a href="https://lucid.app/lucidchart/cf800cf7-8203-402e-b510-dd2424db495b/edit?viewport_loc=-375%2C-446%2C2663%2C1249%2C0_0&invitationId=inv_123ce146-92e5-4800-a0eb-199212544f7c" target="_blank" style="text-decoration:none;">
+- <a href="   " target="_blank" style="text-decoration:none;">
   <kbd>📐 Diagramme de Classes UML</kbd>
 </a>
 
-- <a href="https://lucid.app/lucidchart/cf800cf7-8203-402e-b510-dd2424db495b/edit?viewport_loc=-587%2C-182%2C1828%2C857%2CvuV_~nrtQSs_&invitationId=inv_123ce146-92e5-4800-a0eb-199212544f7c" target="_blank" style="text-decoration:none;">
+- <a href="     " target="_blank" style="text-decoration:none;">
   <kbd>📄 Diagramme de Cas d'Utilisation UML</kbd>
 </a>
 
-- <a href="https://www.figma.com/design/AutcLkCvlY2cVqxRCaDxOr/MyTiq?node-id=0-1&t=jFHf1QloX3EsyCT8-1" target="_blank" style="text-decoration:none;">
+- <a href="    " target="_blank" style="text-decoration:none;">
   <kbd>🎨 Maquettage Figma</kbd>
 </a>
 
