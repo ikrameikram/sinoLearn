@@ -71,11 +71,11 @@ Les administrateurs et professeurs disposent d’outils avancés pour gérer les
 
 ## 🔗 Liens utiles
 
-- <a href="https://sino-learn.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?epics=visible&jql=parent%20%3D%20SCRUM-45&selectedIssue=SCRUM-43"_blank" style="text-decoration:none;">
+- <a href="https://sino-learn.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?epics=visible&jql=parent%20%3D%20SCRUM-45&selectedIssue=SCRUM-43" target="_blank" style="text-decoration:none;">
   <kbd>📋 Voir le Planning Jira</kbd>
 </a>
 
-- <a href="https://docs.google.com/document/d/1bQBuLDfPF-J7Z6UsUWCVJAV19gR1uSJnQH5BpG63RIE/edit?tab=t.0"_blank" style="text-decoration:none;">
+- <a href="https://docs.google.com/document/d/1bQBuLDfPF-J7Z6UsUWCVJAV19gR1uSJnQH5BpG63RIE/edit?tab=t.0"_blank" style="text-decoration:none;" target="_blank" style="text-decoration:none;">
   <kbd>📋 Voir le Cahier de charge </kbd>
 </a>
 
