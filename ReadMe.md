@@ -71,12 +71,12 @@ Les administrateurs et professeurs disposent d’outils avancés pour gérer les
 
 ## 🔗 Liens utiles
 
-- <a href="https://sino-learn.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?epics=visible&jql=parent%20%3D%20SCRUM-45&selectedIssue=SCRUM-43" target="_blank" style="text-decoration:none;">
-  <kbd>📋 Voir le Planning Jira</kbd>
-</a>
-
 - <a href="https://docs.google.com/document/d/1bQBuLDfPF-J7Z6UsUWCVJAV19gR1uSJnQH5BpG63RIE/edit?tab=t.0" target="_blank" style="text-decoration:none;">
   <kbd>📋 Voir le Cahier de charge </kbd>
+</a>
+
+- <a href="https://sino-learn.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?epics=visible&jql=parent%20%3D%20SCRUM-45&selectedIssue=SCRUM-43" target="_blank" style="text-decoration:none;">
+  <kbd>📋 Voir le Planning Jira</kbd>
 </a>
 
 - <a href="   " target="_blank" style="text-decoration:none;">
@@ -86,6 +86,19 @@ Les administrateurs et professeurs disposent d’outils avancés pour gérer les
 - <a href="     " target="_blank" style="text-decoration:none;">
   <kbd>📄 Diagramme de Cas d'Utilisation UML</kbd>
 </a>
+
+## 🔌 Routes API Principales
+
+| Méthode | Endpoint | Description | Accès |
+| :--- | :--- | :--- | :---: |
+| <kbd>POST</kbd> | `/api/login` | Connexion utilisateur & récupération token | 🔓 Public |
+| <kbd>POST</kbd> | `/api/register` | Création d'un nouveau compte | 🔓 Public |
+| <kbd>GET</kbd> | `/api/lessons` | Récupérer la liste de toutes les leçons | 🔐 Auth |
+| <kbd>GET</kbd> | `/api/lessons/{id}` | Détails d'une leçon spécifique | 🔐 Auth |
+| <kbd>GET</kbd> | `/api/lessons/{id}/quiz` | Récupérer les questions du quiz associé | 🔐 Auth |
+| <kbd>POST</kbd> | `/api/quiz/submit` | Envoyer les réponses et obtenir le score | 🔐 Auth |
+| <kbd>GET</kbd> | `/api/hsk/tests` | Liste des tests blancs HSK disponibles | 🔐 Auth |
+| <kbd>POST</kbd> | `/api/forum/posts` | Créer un nouveau sujet de discussion | 🔐 Auth |
 
 - <a href="    " target="_blank" style="text-decoration:none;">
   <kbd>🎨 Maquettage Figma</kbd>
