@@ -87,6 +87,10 @@ Les administrateurs et professeurs disposent d’outils avancés pour gérer les
   <kbd>📄 Diagramme de Cas d'Utilisation UML</kbd>
 </a>
 
+- <a href="    " target="_blank" style="text-decoration:none;">
+  <kbd>🎨 Maquettage Figma</kbd>
+</a>
+
 ## 🔌 Routes API Principales
 
 | Méthode | Endpoint | Description | Accès |
@@ -100,9 +104,7 @@ Les administrateurs et professeurs disposent d’outils avancés pour gérer les
 | <kbd>GET</kbd> | `/api/hsk/tests` | Liste des tests blancs HSK disponibles | 🔐 Auth |
 | <kbd>POST</kbd> | `/api/forum/posts` | Créer un nouveau sujet de discussion | 🔐 Auth |
 
-- <a href="    " target="_blank" style="text-decoration:none;">
-  <kbd>🎨 Maquettage Figma</kbd>
-</a>
+
 
 ---
 
