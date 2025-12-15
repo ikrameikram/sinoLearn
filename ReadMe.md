@@ -76,7 +76,7 @@ Les administrateurs et professeurs disposent d’outils avancés pour gérer les
   <kbd>📋 Voir le Planning Jira</kbd>
 </a>
 
-- <a href="   " target="_blank" style="text-decoration:none;">
+- <a href="https://lucid.app/lucidchart/89d83f45-253c-48d7-95dd-4776e0516f03/edit?invitationId=inv_d7fe5747-df10-488f-a4b0-b6de2077cb46&page=0_0# " target="_blank" style="text-decoration:none;">
   <kbd>📐 Diagramme de Classes UML</kbd>
 </a>
 
