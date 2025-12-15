@@ -80,7 +80,7 @@ Les administrateurs et professeurs disposent d’outils avancés pour gérer les
   <kbd>📐 Diagramme de Classes UML</kbd>
 </a>
 
-- <a href="     " target="_blank" style="text-decoration:none;">
+- <a href="https://lucid.app/lucidchart/c8f6566b-a302-4455-99e1-5c33d6eb7f26/edit?beaconFlowId=18CA595575E285D1&invitationId=inv_5a78313f-9222-4752-8fe3-254f6fcad28c&page=0_0#" target="_blank" style="text-decoration:none;">
   <kbd>📄 Diagramme de Cas d'Utilisation UML</kbd>
 </a>
 
