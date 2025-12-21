@@ -84,7 +84,7 @@ Les administrateurs et professeurs disposent d’outils avancés pour gérer les
   <kbd>📄 Diagramme de Cas d'Utilisation UML</kbd>
 </a>
 
-- <a href="[    ](https://www.figma.com/design/oOJGkQhh1pDr1j6DujN5zR/SinoLearn?node-id=0-1&p=f&t=K6SkBd1LNZpYuATo-0)" target="_blank" style="text-decoration:none;">
+- <a href="https://www.figma.com/design/oOJGkQhh1pDr1j6DujN5zR/SinoLearn?node-id=0-1&p=f&t=K6SkBd1LNZpYuATo-0" target="_blank" style="text-decoration:none;">
   <kbd>🎨 Maquettage Figma</kbd>
 </a>
 
