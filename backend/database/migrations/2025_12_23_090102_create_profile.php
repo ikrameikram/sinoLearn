@@ -1,0 +1,29 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    public function up(): void
+    {
+        Schema::create('profiles', function (Blueprint $table) {
+            $table->id();
+            // La clé étrangère qui lie ce profil à un utilisateur
+            $table->foreignId('user_id')->constrained()->onDelete('cascade');
+            $table->text('bio')->nullable();
+            $table->string('avatar')->nullable();
+            $table->integer('target_hsk_level')->default(1);
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     */
+    public function down(): void
+    {
+        Schema::dropIfExists('profile');
+    }
+};
