@@ -10,10 +10,9 @@ return new class extends Migration
     {
         Schema::create('profiles', function (Blueprint $table) {
             $table->id();
-            // La clé étrangère qui lie ce profil à un utilisateur
             $table->foreignId('user_id')->constrained()->onDelete('cascade');
             $table->text('bio')->nullable();
-            $table->string('avatar')->nullable();
+            $table->string('photo')->nullable();
             $table->integer('target_hsk_level')->default(1);
             $table->timestamps();
         });
@@ -24,6 +23,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('profile');
+        Schema::dropIfExists('profiles');
     }
 };

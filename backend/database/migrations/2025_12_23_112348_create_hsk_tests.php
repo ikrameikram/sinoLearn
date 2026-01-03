@@ -9,12 +9,12 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('hsk_tests', function (Blueprint $table) {
-        $table->id(); 
-        $table->integer('level');             
-        $table->integer('duration_minutes'); 
-        $table->integer('min_score');         
-        $table->string('title');           
-        $table->timestamps();
+            $table->id(); 
+            $table->integer('level');             
+            $table->integer('duration_minutes'); 
+            $table->integer('min_score');         
+            $table->string('title');           
+            $table->timestamps();
     });
     }
     

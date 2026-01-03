@@ -10,7 +10,7 @@ return new class extends Migration
     {
         Schema::create('questions', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('hsk_tests_id')->constrained()->onDelete('cascade'); 
+            $table->foreignId('hsk_test_id')->constrained()->onDelete('cascade'); 
             $table->text('content');
             $table->enum('type', ['ECOUTE', 'LECTURE', 'ECRITURE', 'COMPREHENSION']);
             $table->integer('score')->default(1);

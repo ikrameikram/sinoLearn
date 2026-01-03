@@ -13,6 +13,7 @@ return new class extends Migration
             $table->foreignId('user_id')->constrained()->onDelete('cascade');
             $table->foreignId('forum_post_id')->constrained()->onDelete('cascade');
             $table->text('content');
+            $table->timestamp('published_at')->nullable();
             $table->timestamps();
         });
     }

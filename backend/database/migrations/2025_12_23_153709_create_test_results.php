@@ -11,7 +11,7 @@ return new class extends Migration
         Schema::create('test_results', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id')->constrained()->onDelete('cascade');
-            $table->foreignId('hsk_tests_id')->constrained('hsk_tests')->onDelete('cascade');
+            $table->foreignId('hsk_test_id')->constrained('hsk_tests')->onDelete('cascade');
             $table->integer('score')->nullable();
             $table->integer('max_score')->default(200);
             $table->boolean('is_passed')->default(false);
