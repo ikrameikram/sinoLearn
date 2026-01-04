@@ -20,7 +20,7 @@ class AuthController extends Controller
         $user = User::create([
             'name' => $fields['name'],
             'email' => $fields['email'],
-            'password' => $fields['password'],
+            'password' => Hash::make($fields['password']), 
             'role' => $fields['role'],
             'est_actif' => true,
         ]);
