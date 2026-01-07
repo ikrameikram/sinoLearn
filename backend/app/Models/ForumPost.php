@@ -17,8 +17,8 @@ class ForumPost extends Model
         'user_id',
         'subject',
         'content',
-        'category',      // 'grammaire', 'vocabulaire', 'culture'
-        'is_resolved',   // Indique si la question a trouvé une réponse
+        'category',     
+        'is_resolved',   
         'published_at',
     ];
 
@@ -27,13 +27,11 @@ class ForumPost extends Model
         'published_at' => 'datetime',
     ];
 
-    // Relation : Un post appartient à un utilisateur (l'auteur)
     public function user(): BelongsTo
     {
         return $this->belongsTo(User::class);
     }
 
-    // Relation : Un post a plusieurs commentaires (réponses)
     public function comments(): HasMany
     {
         return $this->hasMany(Comment::class);

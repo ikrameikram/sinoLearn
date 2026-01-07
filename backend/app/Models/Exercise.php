@@ -13,25 +13,18 @@ class Exercise extends Model
 
     protected $fillable = [
         'lesson_id',
-        'type',        // 'QCM', 'TEXT_A_TROU', etc.
-        'instruction', // Consigne de l'exercice
-        'content',     // Le coeur de l'exercice (Questions/Réponses)
+        'type',        
+        'instruction', 
+        'content',
         'points',
         'hsk_level',
     ];
-
-    /**
-     * Les "Casts" permettent de convertir automatiquement les données.
-     * Ici, la colonne 'content' (qui est du JSON dans la BD)
-     * sera convertie en Tableau (Array) dès qu'on l'utilise en PHP.
-     */
     protected $casts = [
         'content' => 'array', 
         'points' => 'integer',
         'hsk_level' => 'integer',
     ];
 
-    // Relation : Un exercice appartient à une leçon
     public function lesson(): BelongsTo
     {
         return $this->belongsTo(Lesson::class);

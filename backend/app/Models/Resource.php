@@ -14,11 +14,10 @@ class Resource extends Model
     protected $fillable = [
         'lesson_id',
         'title',
-        'type', // 'PDF', 'AUDIO', 'VIDEO', 'LINK'
+        'type', 
         'url',
     ];
 
-    // Relation : Une ressource appartient à une seule leçon
     public function lesson(): BelongsTo
     {
         return $this->belongsTo(Lesson::class);

@@ -12,7 +12,7 @@ class AnswerFactory extends Factory
         return [
             'question_id' => Question::factory(),
             'text' => fake()->sentence(3),
-            'is_correct' => fake()->boolean(25), // 25% de chance d'être la bonne réponse
+            'is_correct' => fake()->boolean(25), 
         ];
     }
 }

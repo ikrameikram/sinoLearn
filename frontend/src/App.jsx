@@ -1,17 +1,29 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Dashboard from "./pages/dashboard"; // Import du nouveau Dashboard
+
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import Signup from "./pages/Signup"; 
+import Dashboard from "./pages/Dashboard";
+import Lessons from "./pages/Lessons";
+import Exercise from "./pages/Exercise"; 
 
 function App() {
   return (
     <BrowserRouter>
-      <div className="min-h-screen bg-gray-50">
-        <Routes>
-          {/* Page Dashboard qui contient son propre Header */}
-          <Route path="/dashboard" element={<dashboard />} />
-          {/* Route par défaut */}
-          <Route path="/" element={<dashboard />} />
-        </Routes>
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        
+    
+        <Route path="/lessons" element={<Lessons />} />
+        <Route 
+            path="/courses/:courseId/lessons/:lessonId/exercises" 
+            element={<Exercise />} 
+        />
+        
+      </Routes>
     </BrowserRouter>
   );
 }

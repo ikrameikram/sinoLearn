@@ -18,25 +18,23 @@ class TestResult extends Model
         'score',
         'max_score',
         'is_passed',
-        'duration',         // Temps mis en secondes ou minutes
-        'status',           // 'en_cours', 'termine', 'abandonne'
-        'listening_score',  // Score partie écoute
-        'reading_score',    // Score partie lecture
+        'duration',         
+        'status',          
+        'listening_score',
+        'reading_score', 
     ];
 
     protected $casts = [
-        'is_passed' => 'boolean', // Convertit 0/1 en false/true
+        'is_passed' => 'boolean',
         'score' => 'integer',
         'max_score' => 'integer',
     ];
 
-    // Relation : Le résultat appartient à un User
     public function user(): BelongsTo
     {
         return $this->belongsTo(User::class);
     }
 
-    // Relation : Le résultat concerne un test HSK spécifique
     public function hskTest(): BelongsTo
     {
         return $this->belongsTo(HskTest::class);

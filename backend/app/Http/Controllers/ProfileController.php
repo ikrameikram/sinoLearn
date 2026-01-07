@@ -15,7 +15,6 @@ class ProfileController extends Controller
 
     public function update(Request $request)
     {
-        // SOLUTION 1 : On utilise $request->user() au lieu de Auth::user()
         $user = $request->user();
 
         $validated = $request->validate([
@@ -43,7 +42,6 @@ class ProfileController extends Controller
 
         return response()->json([
             'message' => 'Profil mis à jour avec succès',
-            // Ici, plus d'erreur car $request->user() est bien reconnu comme un User
             'user' => $user->load('profile'), 
         ]);
     }

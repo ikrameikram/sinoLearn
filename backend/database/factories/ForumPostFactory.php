@@ -10,7 +10,7 @@ class ForumPostFactory extends Factory
     public function definition(): array
     {
         return [
-            'user_id' => User::factory(), // Un post est écrit par un user
+            'user_id' => User::factory(), 
             'subject' => fake()->sentence(),
             'content' => fake()->paragraph(),
             'category' => fake()->randomElement(['grammaire', 'vocabulaire', 'culture']),

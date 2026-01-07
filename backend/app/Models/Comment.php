@@ -23,13 +23,11 @@ class Comment extends Model
         'published_at' => 'datetime',
     ];
 
-    // Relation : Le commentaire appartient à un User (l'auteur)
     public function user(): BelongsTo
     {
         return $this->belongsTo(User::class);
     }
 
-    // Relation : Le commentaire appartient à un Sujet spécifique
     public function forumPost(): BelongsTo
     {
         return $this->belongsTo(ForumPost::class);

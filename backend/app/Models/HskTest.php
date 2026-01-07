@@ -13,10 +13,10 @@ class HskTest extends Model
     use HasFactory;
 
     protected $fillable = [
-        'title',            // Ex: "HSK 1 - Test Blanc 1"
-        'level',            // 1, 2, 3...
-        'duration_minutes', // Ex: 40
-        'min_score',        // Score minimum pour valider (ex: 120)
+        'title',           
+        'level',            
+        'duration_minutes', 
+        'min_score',        
     ];
 
     protected $casts = [
@@ -25,13 +25,11 @@ class HskTest extends Model
         'min_score' => 'integer',
     ];
 
-    // Relation : Un test contient plusieurs Questions
     public function questions(): HasMany
     {
         return $this->hasMany(Question::class);
     }
 
-    // Relation : Un test a été passé plusieurs fois (Résultats)
     public function testResults(): HasMany
     {
         return $this->hasMany(TestResult::class);

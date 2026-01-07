@@ -13,15 +13,14 @@ class Answer extends Model
 
     protected $fillable = [
         'question_id',
-        'text',       // Le texte de la réponse (ex: "A. Pékin")
-        'is_correct', // Indique si c'est la bonne réponse (0 ou 1)
+        'text',       
+        'is_correct',
     ];
 
     protected $casts = [
-        'is_correct' => 'boolean', // Convertit 0/1 en false/true
+        'is_correct' => 'boolean', 
     ];
 
-    // Relation : Cette réponse appartient à une question spécifique
     public function question(): BelongsTo
     {
         return $this->belongsTo(Question::class);
